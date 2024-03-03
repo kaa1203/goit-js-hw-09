@@ -1,0 +1,22 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.btn-wrapper {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+button {
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
